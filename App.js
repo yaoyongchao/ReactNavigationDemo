@@ -13,7 +13,9 @@ import {
     Button,
 
 } from 'react-native';
-import {TabNavigator,StackNavigator} from 'react-navigation'
+
+import {StackNavigator,} from 'react-navigation';
+
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
     'Cmd+D or shake for dev menu',
@@ -22,19 +24,19 @@ const instructions = Platform.select({
 });
 
 export default class App extends Component<{}> {
-  static navigationOptions = {
-      title:'首页',
-      // header:null,
-  }
+  // static navigationOptions = {
+  //     title:'首页',
+  //     // header:null,
+  // }
   render() {
-      const { navigate } = this.props.navigation;
+      const {navigate} = this.props.navigation;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           react-navigation Demo 练习
         </Text>
 
-          <Button ></Button>
+          <Button title="摸我啊" onPress={() => navigate('main')}/>
 
 
 
