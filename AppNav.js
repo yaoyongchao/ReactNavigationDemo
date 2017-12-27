@@ -13,7 +13,8 @@ import {
 
 } from 'react-native';
 import App from './App'
-import MainPage from './page/nav/MainPage'
+import ChatPage from './page/nav/ChatPage'
+
 export default AppNav = StackNavigator({
     app: {
         screen: App,
@@ -22,8 +23,8 @@ export default AppNav = StackNavigator({
             title:'首页'
         }
     },
-    main: {
-        screen: MainPage,
+    chat: {
+        screen: ChatPage,
         navigationOptions: {
             // headerTitle: '首页',
             title:'主页',
@@ -35,7 +36,7 @@ export default AppNav = StackNavigator({
             headerTitleStyle: {
                 color: 'green',
                 textColor: 'red',
-                textAlign: 'right',
+                textAlign: 'center',
                 alignSelf: 'center'
             },
 
