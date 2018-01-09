@@ -5,9 +5,9 @@
 ## [react-navigation官网](https://reactnavigation.org/)
 ### react-navigation详细介绍?上面有官网自己查看.
 ## react-navigation是个啥?按功能来说可分为三部分:
-1.StackNavigator：用来设置页面标题,跳转页面和传递参数
-2.TabNavigator：类似底部,顶部导航栏，用来在同一屏幕下切换不同界面**
-3.DrawerNavigator：侧滑菜单导航栏，用于轻松设置带抽屉导航的屏幕**
+1.StackNavigator：用来设置页面标题,跳转页面和传递参数<br />
+2.TabNavigator：类似底部,顶部导航栏，用来在同一屏幕下切换不同界面<br />
+3.DrawerNavigator：侧滑菜单导航栏，用于轻松设置带抽屉导航的屏幕<br />
 ## 一.安装此库
 <font size="6">使用NPM安装</font><br /> 
 <font size="5">npm install --save react-navigation</font><br /> 
@@ -16,4 +16,4 @@
 <font size="5">yarn add react-navigation</font><br /> 
 
 ## 二.react-navigation属性介绍
-###1.StackNavigator属性介绍
+### 1.StackNavigator属性介绍
